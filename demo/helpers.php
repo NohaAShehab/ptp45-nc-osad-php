@@ -23,3 +23,32 @@ function drawTable($header, $tableData) {
     echo "</tbody></table></div> </div>";
 
 }
+
+
+function generateID(){
+    if(file_exists("ids.txt")){
+        // read id in ids.txt
+        $id=  file_get_contents("ids.txt");
+        $id = (int)$id + 1;
+        // increment +1
+    }else{
+        $id  =1 ;
+    }
+    // save incremented in the ids.txt
+    file_put_contents("ids.txt", $id);
+    // return with id
+    return $id;
+}
+
+
+function appendDataTofile($filename, $data){
+    $fileobject= fopen($filename, "a");
+    if ($fileobject) {
+        fwrite($fileobject, $data);
+        fclose($fileobject);
+        return true;
+    }
+
+    return false;
+
+}

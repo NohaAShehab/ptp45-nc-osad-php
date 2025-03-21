@@ -6,3 +6,7 @@
 6:NadaEmam:nada@gmail.com:hi:hi
 7:Fares:fares@gmail.com:hi:hi
 8:Osama:osama@gmail.com:hi:hi
+13:Noha:noha@gmail.com:inquiry:Hello
+14:Noha:noha@gmail.com:inquiry:Hello
+15:Israa:israa@gmail.com:feedback:Hellooooooooo Ya Israa
+16:Youssef:Youssef@gmail.com:feedback:I am happy

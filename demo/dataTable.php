@@ -20,7 +20,7 @@
 //    echo "<pre>";
 //    print_r($table);
 //    echo "</pre>";
-    echo "<h1 style='text-align: center'> Students Messages</h1>";
+    echo '<h1 class="text-center mt-5 fw-bold text-primary">🎉 Students Messages ! 🎉</h1>';
     $headers = ["ID", "Name", "Email", "Subject", "Message"];
 
     drawTable($headers, $table);
