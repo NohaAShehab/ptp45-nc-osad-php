@@ -20,7 +20,11 @@ $id = generateID();
     if($saved) {
         echo '<h1 class="mt-5 fw-bold text-primary">🎉 Data Saved! 🎉</h1>';
         // redirect to the data Table ???
-        header("Location:dataTable.php");
+//        header("Location:dataTable.php");
+
+        echo '<a class="btn btn-primary btn-lg shadow-lg rounded-pill px-4 py-2 fw-bold" href="dataTable.php">
+                🚀 Display All Messages
+              </a>';
 
     }else{
         echo '<h1 class="mt-5 fw-bold text-danger">🎉 Contact your Admin 🎉</h1>';
