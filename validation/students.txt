@@ -1,0 +1,8 @@
+16:Youssef:Youssef@gmail.com:feedback:I am happy
+17:Mostafa:mostafa@gmail.com:support:Happpy
+53:Mohamed Amr:moh@gmail.com:inquiry:hello
+65:Abcccc:noha@gmail.com:inquiry:hello
+66:Abcccc:noha@gmail.com:inquiry:
+                          hello                    
+67:Abcccc:noha@gmail.com:inquiry:bacc
+68:noha:nshehab.iti42@gmail.com:support:hello
