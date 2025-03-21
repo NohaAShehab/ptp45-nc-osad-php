@@ -88,7 +88,7 @@
 ////readfile("users.txt"); #output file content to the browser
 //
 //
-//$content=file_get_contents("users.txt");  # read file content to a string
+//$content=file_get_contents("users.txt");  # read file content to a string // open read then close
 //var_dump($content);
 
 
