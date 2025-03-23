@@ -30,4 +30,17 @@ function connect_to_db() {
     return $conn;
 }
 
-//connect_to_db();
+function connect_to_db_oop(){
+    $conn= false;
+    try{
+        $conn = new mysqli(DB_HOST, DB_USER,DB_PASSWORD,
+            DB_NAME, DB_PORT);
+
+
+    }catch (Exception $e){
+        displayError($e->getMessage());
+    }
+    return $conn;
+}
+//var_dump(connect_to_db());
+//var_dump(connect_to_db_oop());
