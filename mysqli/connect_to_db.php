@@ -4,7 +4,7 @@
 require_once "../utils.php";
 require_once "connection_credits.php";
 
-generateTitle("procedural mysqli");
+//generateTitle("procedural mysqli");
 function connect_to_db() {
     $conn= false;
 
